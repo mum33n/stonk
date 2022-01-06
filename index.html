@@ -11,7 +11,7 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="container__large container-fluid text-white">
+    <div class="container__large sticky-top container-fluid text-white">
         <nav class="navbar navbar-expand-lg p-0">
             <a href="/" class="navbar-brand d-flex wow align-items-center fadeIn">
                 <img src="./images/Stonks_small_transparent.png" width="50" alt="Solalambo logo" class="logo__img">
@@ -20,7 +20,7 @@
             <div id="navbarNavDropdown" class="collapse navbar-collapse">
                 <ul class="navbar-nav ml-auto main-nav">
                     <li class="nav-item"><a href="#Tokenomics" class="nav-link">Tokenomics</a></li>
-                    <li class="nav-item"><a href="#road_map" class="nav-link">Roadmap</a></li>
+                    <li class="nav-item"><a href="#roadmap" class="nav-link">Roadmap</a></li>
                     <li class="nav-item"><a class="btn btn-success mr-3 nav-link" href="#"> Download White Paper</a></li>
                     <li class="nav-item"><a class="btn btn-warning nav-link" href="#"> Buy On Tinyman</a></li>
                 </ul>
@@ -57,7 +57,7 @@
                     <img src="images/Stonks_small_transparent.png" class="mx-auto d-block" alt="">
                 </div>
             </div>
-            <div id="particles-js"></div>
+            <div class="bubble" id="particles-js"></div>
         </section>
         <section class="wow fadeInUp container">
             <h2 class="text-center heading">Revolution of Memes on Algorand Blockchain</h2>
@@ -74,7 +74,7 @@
             </div>
                 
         </section>
-        <section class="container">
+        <section class="container" id="roadmap">
             <h2 class="text-center heading wow fadeInUp">Roadmap</h2>
         <div class="row">
             <div class="col-12">
@@ -228,9 +228,9 @@
         <h2 class="text-center wow fadeInUp">Join Our Community</h2>
         <div class="col-md-3 mx-auto">
             <div class="d-flex align-items-center justify-content-around">
-                <a href="#" class="d-block"><img src="/images/discord-icon-43736.png" width="50" alt=""></a>
-                <a href="#" class="d-block"><img src="/images/twitter.png" width="35" alt=""></a>
-                <a href="#" class="d-block"><img src="/images/twitter.png" width="35" alt=""></a>
+                <a href="#" class="d-block"><img src="images/discord-icon-43736.png" width="50" alt=""></a>
+                <a href="#" class="d-block"><img src="images/twitter.png" width="35" alt=""></a>
+                <a href="#" class="d-block"><img src="images/twitter.png" width="35" alt=""></a>
             </div>
         </div>
         <p class="text-center mt-5">Copyright &copy; 2021 <span class="fa fa-heart"> </span> STONKS TEAM</p>
@@ -242,6 +242,9 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="script/chart.js/dist/chart.min.js"></script>
     <script src="wowjs/dist/wow.min.js"></script>
+    <script src="./script/particles.js"></script>
+    <script src="./script/bubbles.js"></script>
+    <script src="./script/three.js"></script>
     <script src="script/index.js"></script>
 
 </body>
