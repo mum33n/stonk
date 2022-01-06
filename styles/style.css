@@ -178,7 +178,7 @@ ul.roadmap {
   .timeline .timeline-wrapper.timeline-inverted .timeline-panel:after {
     border-left-width: 0;
     border-right-width: 14px;
-    left: -14px;
+    left: -10px;
     right: auto;
   }
   
@@ -187,7 +187,7 @@ ul.roadmap {
       padding-right: 150px;
     }
     .timeline .timeline-wrapper.timeline-inverted {
-      padding-left: 150px;
+      padding-left: 170px;
     }
     .timeline .timeline-wrapper .timeline-panel {
       width: 60%;
@@ -276,4 +276,12 @@ ul.roadmap {
 }
 .heading{
     margin-bottom: 40px;
+}
+.bubble{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
 }
