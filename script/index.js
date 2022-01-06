@@ -49,11 +49,13 @@ $(document).ready(function() {
     opener.click(
         function(){
             mobile.toggleClass("d-none")
+            opener.toggleClass("d-none")
         }
     )
     close.click(
         function(){
             mobile.toggleClass("d-none")
+            opener.toggleClass("d-none")
         }
     )
 })
