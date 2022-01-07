@@ -1,1 +1,1 @@
-# stonk website
+# stonks website
